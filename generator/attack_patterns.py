@@ -272,3 +272,5 @@ def inject_all_attacks(events):
     random.shuffle(attack_events)
 
     return attack_events
+
+

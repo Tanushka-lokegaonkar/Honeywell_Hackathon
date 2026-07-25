@@ -64,3 +64,8 @@ print(df["attack_type"].value_counts(dropna=False))
 
 print("\nLabel Distribution:")
 print(df["label"].value_counts())
+
+from collections import Counter
+
+labels = [e["label"] for e in events]
+print(Counter(labels))
