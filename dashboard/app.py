@@ -320,7 +320,7 @@ elif page == "Threat Analytics":
             timeline = (
                 filtered_df[filtered_df["prediction"] == "anomaly"]
                 .set_index("timestamp")
-                .resample("1H")
+                .resample("1h")
                 .size()
                 .reset_index(name="alerts")
             )
