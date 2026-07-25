@@ -1,0 +1,12 @@
+pandas
+numpy
+faker
+scikit-learn
+matplotlib
+plotly
+streamlit
+shap
+joblib
+geopy
+networkx
+tqdm
